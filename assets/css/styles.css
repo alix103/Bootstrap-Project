@@ -9,6 +9,11 @@
     /*filter: grayscale(50%);*/
 }
 
+div #text-carousel {
+    background: rgba(238, 234, 238, 0.4);
+    color: black;
+}
+
 #ver #btn a{
     color: white;
     text-decoration: none;
