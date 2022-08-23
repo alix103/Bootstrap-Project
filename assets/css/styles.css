@@ -9,3 +9,7 @@
     /*filter: grayscale(50%);*/
 }
 
+#ver #btn a{
+    color: white;
+    text-decoration: none;
+}
