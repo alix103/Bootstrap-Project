@@ -1,0 +1,34 @@
+#header img{
+    border-radius: 50px;
+
+}
+
+#form {
+    margin-top: 30px;
+}
+
+#space{
+    margin-top: 20px;
+}
+
+/* quitar flechas input number*/
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] { -moz-appearance:textfield; }
+
+
+#space button {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 110px;
+    background: #83f3f8;
+    color: #6a9a70;
+    font-size: 18px;
+    border-radius: 50px;
+    font-family: verdana;
+}
