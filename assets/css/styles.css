@@ -1,0 +1,11 @@
+#header img{
+    border-radius: 50px;
+
+}
+
+#main .carousel-inner img {
+    max-height: 80vh;
+    object-fit: contain;
+    /*filter: grayscale(50%);*/
+}
+
