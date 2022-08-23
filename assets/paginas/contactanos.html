@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../images/logo.png">
+    <title>Contáctanos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/contacto.css">
+  </head>
+  <body>
+
+    <!--header-->
+    <nav id="header" class="navbar navbar-expand-lg sticky-top" style="background-color: #a3f1f6;">
+        <div class="container">
+                <a class="navbar-brand" href="../../index.html">
+                  <img src="../images/logo.png" alt="" width="90" height="90" class="d-inline-block align-text-top" id="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Tenis</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Sandalias</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Tacones</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Botas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Casuales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/contactanos.html">Contáctanos</a>
+                    </li>
+                  </ul>
+                </div>
+        </div>  
+    </nav>
+    <!--/header-->
+
+
+    <!--formulario-->
+    <form>
+        <div class="container">
+            <div class="col text-center text-uppercase"><br>
+                <h2>Gracias por contáctarnos</h2>
+                <h6>Diligencie el siguiente formulario</h6>
+            </div>
+            <div id="form" class="row">
+                <div class="col-lg-6 col-md-12">
+                    <label for=""><strong>Nombres</strong></label>
+                  <input type="text" class="form-control" placeholder="Escribe tu nombre" aria-label="nombre">
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <label for=""><strong>Apellidos</strong></label>
+                  <input type="text" class="form-control" placeholder="Escribe tu apellido" aria-label="apellido">
+                </div>
+                <div id="space" class="col-12">
+                    <label for=""><strong>Dirección</strong></label>
+                  <input type="text" class="form-control" placeholder="Escribe tu dirección" aria-label="direccion">
+                </div>
+                <div id="space" class="col-lg-4 col-md-12">
+                    <label for=""><strong>Teléfono</strong></label>
+                  <input type="number" class="form-control" placeholder="Escribe tu teléfono" aria-label="telefono">
+                </div>
+                <div id="space" class="col-lg-4 col-md-12">
+                    <label class="form-check-label"><strong>Género</strong> <br>
+                        <input class="form-check-input" type="radio" name="flexRadioDefault">Femenino
+                        <input class="form-check-input" type="radio" name="flexRadioDefault">Masculino
+                    </label>
+                </div>
+                <div id="space" class="col-lg-4 col-md-12">
+                    <label for=""><strong>País</strong></label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Selecciona tu país</option>
+                        <option value="1">Colombia</option>
+                        <option value="2">Estados Unidos</option>
+                        <option value="3">Canadá</option>
+                    </select>
+                </div>
+                <div id="space" class="col-lg-6 col-md-12">
+                    <label for=""><strong>Departamento</strong></label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Selecciona tu departamento</option>
+                        <option value="1">Tolima</option>
+                        <option value="2">Cundinamarca</option>
+                        <option value="3">Manizales</option>
+                    </select>
+                </div>
+                <div id="space" class="col-lg-6 col-md-12">
+                    <label for=""><strong>Ciudad</strong></label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Selecciona tu ciudad</option>
+                        <option value="1">Armero</option>
+                        <option value="2">Ibagué</option>
+                        <option value="3">Bogotá</option>
+                    </select>
+                </div>
+                <div id="space" class="col-12">
+                    <textarea class="container" name="" id="" cols="150" rows="10" placeholder="Dejanos tu comentario"></textarea>
+                </div>
+                <div id="space" class="col-1 col-md-1 offset-md-10">
+                    <button>Guardar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!--/formulario-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+  </body>
+</html>
